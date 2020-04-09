@@ -128,15 +128,4 @@ public:
 
 };
 
-int main() {
-	BinTree tree;
-	int tmp = 1;
-	while (tmp != 0)
-	{
-		cin >> tmp;
-		tree.Add(tmp);
-	}
-	cout << tree.search(1)->ind << endl;
-	tree.remove(3);
-	cout << tree.search(3)->ind;
-}
+int main() {}
